@@ -22,3 +22,5 @@ using technical indicators, macroeconomic variables, commodities, and global ind
 ## Docker
 docker build -t stock-prediction .
 docker run stock-prediction
+
+
