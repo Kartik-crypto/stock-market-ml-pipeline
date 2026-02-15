@@ -1,0 +1,11 @@
+data:
+  path: data/raw/Processed_DJI.csv
+  target: Close
+  test_size: 0.2
+
+model:
+  type: xgboost
+  random_state: 42
+
+output:
+  model_path: models/trained_model.pkl
